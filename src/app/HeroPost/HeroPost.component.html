@@ -1,0 +1,14 @@
+<div class="home-content">
+  <h3>Content component header here</h3>
+  <time>Aug 5, 2014</time>
+  <p>Hey this is a really, really, really cool content container with heaps of text and stuff.</p>
+  <button type="button">Subscribe now</button>
+</div>
+
+<div class="row">
+  <ng-container *ngFor="let tile of tiles">
+    <div class="col-md-3">
+      <app-PostPreviewTile></app-PostPreviewTile>
+    </div>
+  </ng-container>
+</div>
